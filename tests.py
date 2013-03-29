@@ -1,10 +1,10 @@
 """
-Test for hyphenate_html
+Test for hyphenate
 
 Author: Craig Weber
 """
 
-import hyphenate_html as hyphen
+import hyphenate as hyphen
 import re
 from lib.BeautifulSoup import BeautifulSoup, NavigableString
 
@@ -42,7 +42,7 @@ Curabitur ut est lacus, vel condimentum ipsum. Curabitur vulputate sapien at nis
 </p></div><div></div>"""
 
 
-            
+
 print hyphen.hyphenate_html(lipsum)
 
 
